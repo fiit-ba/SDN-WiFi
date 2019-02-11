@@ -1,0 +1,117 @@
+Package: luci-app-firewall
+Version: git-17.013.32081-d89b022-1
+Depends: libc, firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 10566
+Filename: luci-app-firewall_git-17.013.32081-d89b022-1_all.ipk
+Size: 11279
+MD5Sum: cb71fd3b45be86b340ebd2caa851bad0
+SHA256sum: 11f491d7cdbda400c0584ffe8f25931923e911f5c6e4fc25e2a94e824517a0cc
+Description:  Firewall and Portforwarding application
+
+Package: luci-base
+Version: git-17.013.32081-d89b022-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: ar71xx
+Installed-Size: 123143
+Filename: luci-base_git-17.013.32081-d89b022-1_ar71xx.ipk
+Size: 123992
+MD5Sum: 0ee91817d8d74f815d80aa617dfc1cd0
+SHA256sum: 45844e2e16b7f62564bf88a65e69a01413f9dbeee0f95153ea66d788cda0fb6e
+Description:  LuCI core libraries
+
+Package: luci-lib-ip
+Version: git-17.013.32081-d89b022-1
+Depends: libc, liblua, libnl-tiny
+Source: feeds/luci/libs/luci-lib-ip
+Section: luci
+Architecture: ar71xx
+Installed-Size: 9366
+Filename: luci-lib-ip_git-17.013.32081-d89b022-1_ar71xx.ipk
+Size: 10056
+MD5Sum: 12fe4aaea1c2cb5e48d7e9acb9bd61d9
+SHA256sum: ed6ca94c0ce9df0fc5a01d69beee28fae7002748a9c8960d4176a2c8e6ebbb3e
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-nixio
+Version: git-17.013.32081-d89b022-1
+Depends: libc, liblua
+Source: feeds/luci/libs/luci-lib-nixio
+Section: luci
+Architecture: ar71xx
+Installed-Size: 29555
+Filename: luci-lib-nixio_git-17.013.32081-d89b022-1_ar71xx.ipk
+Size: 30022
+MD5Sum: a7b278488474e7549c6faa592796591c
+SHA256sum: 3ab619eeb93fa1c4e608c64f29974ddba17bbf0171c5254dc186ba5c0263358e
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-17.013.32081-d89b022-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-mod-admin-full
+Section: luci
+Architecture: ar71xx
+Installed-Size: 69812
+Filename: luci-mod-admin-full_git-17.013.32081-d89b022-1_ar71xx.ipk
+Size: 70670
+MD5Sum: 57c4350f95747d3e8729b57d96d6d556
+SHA256sum: c180c14ed33419333731fd850872f3ab5b35d9706672406b81ad2fc61cfcc4e3
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ipv6
+Version: git-17.013.32081-d89b022-1
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ipv6
+Section: luci
+Architecture: all
+Installed-Size: 4402
+Filename: luci-proto-ipv6_git-17.013.32081-d89b022-1_all.ipk
+Size: 5094
+MD5Sum: 7426d383744dd83a8db31d569615bf1d
+SHA256sum: 8bc6e196b471a1d95bcefc8d9bfba1364e0340cf8dc64ad533b47a40a02ea254
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+
+Package: luci-proto-ppp
+Version: git-17.013.32081-d89b022-1
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ppp
+Section: luci
+Architecture: all
+Installed-Size: 2616
+Filename: luci-proto-ppp_git-17.013.32081-d89b022-1_all.ipk
+Size: 3282
+MD5Sum: 5c103c91d22695305716e824efe16cc5
+SHA256sum: 6df4914d07113d1f2261f8c03537f351364a368fcbc36c42310c8dfa2c425495
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: git-17.013.32081-d89b022-1
+Depends: libc
+Source: feeds/luci/themes/luci-theme-bootstrap
+Section: luci
+Architecture: all
+Installed-Size: 13072
+Filename: luci-theme-bootstrap_git-17.013.32081-d89b022-1_all.ipk
+Size: 13797
+MD5Sum: 70303abd66511f7b21fc9e74d8d6a80a
+SHA256sum: bda07fcaa24baa61f072b660cd208d9cfe7b5c2e2dd70872a186fadefa721fce
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-17.013.32081-d89b022-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6
+Source: feeds/luci/collections/luci
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci_git-17.013.32081-d89b022-1_all.ipk
+Size: 872
+MD5Sum: 3c4c2cc5be93f9cbff3615b1eeb1aafd
+SHA256sum: 3917ea68c2523cf365dbc77e2838609e13e7abcf6c798ce1024fbbdf6a79a237
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+

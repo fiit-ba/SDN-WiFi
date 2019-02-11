@@ -1,0 +1,514 @@
+Package: joe
+Version: 3.7-3
+Depends: libc, libncurses
+Source: feeds/packages/utils/joe
+Section: utils
+Maintainer: Vitaly Protsko <villy@sft.ru>
+Architecture: ar71xx
+Installed-Size: 176818
+Filename: joe_3.7-3_ar71xx.ipk
+Size: 174197
+MD5Sum: 524fd1dd2e9c829bcd8500178864fae9
+SHA256sum: 7d83000a9a49ce23ea3400f0c7a4747f89f400d89b112a452672ba3b0d5556f9
+Description:  Joe is world-famous Wordstar like text editor, that also features
+ Emacs and Pico emulation
+
+Package: kmod-openvswitch
+Version: 3.18.45+2.3.90-58be9c9fd732b5bdd3d4c2e9b8cc2313f570094d
+Depends: kernel (=3.18.45-1-8d5925cca87ceb34878903df44f18763), kmod-stp, kmod-ipv6, kmod-gre, kmod-lib-crc32c, kmod-vxlan
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: kernel
+Architecture: ar71xx
+Installed-Size: 47243
+Filename: kmod-openvswitch_3.18.45+2.3.90-58be9c9fd732b5bdd3d4c2e9b8cc2313f570094d_ar71xx.ipk
+Size: 47994
+MD5Sum: d3279d31a5539e1cb5409196fb1033af
+SHA256sum: c6893a70ef605fe9f6142e0a291cfb22c8b02d5848fdf2ef703840d3e6f7ff86
+Description:  This package contains the Open vSwitch kernel moodule and bridge compat
+ module. Furthermore, it supports OpenFlow.
+
+Package: libdb47
+Version: 4.7.25.4.NC-4.1
+Depends: libc, libxml2
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: ar71xx
+Installed-Size: 472360
+Filename: libdb47_4.7.25.4.NC-4.1_ar71xx.ipk
+Size: 472546
+MD5Sum: a2dade44f8a0da251557bbfe2bd61a01
+SHA256sum: f3ad8c6196d42638bd008cdfe23637190bdd755c262a42646b6ef4d4b8433df5
+Description:  Berkeley DB library (4.7).
+
+Package: libffi
+Version: 3.0.13-1
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 5402
+Filename: libffi_3.0.13-1_ar71xx.ipk
+Size: 6400
+MD5Sum: fd81ff987f1384d34d2b776f5691cc82
+SHA256sum: 5ded53671eeae944dc0054e672117d7ab0c7755972fe335ee232ad262d8b47b3
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.11-1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: ar71xx
+Installed-Size: 17372
+Filename: libgdbm_1.11-1_ar71xx.ipk
+Size: 18185
+MD5Sum: 67991d91f709dc853863428aed404882
+SHA256sum: a4a2156ad2d8b351c50e853082ba94c32003ba9d313ed887479008e64ba0e199
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libsqlite3
+Version: 3081101-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ar71xx
+Installed-Size: 368195
+Filename: libsqlite3_3081101-1_ar71xx.ipk
+Size: 368139
+MD5Sum: 84aec358fb1278b9d4d3c8447c88c5cb
+SHA256sum: 3fba87dc47979c971136d96ccf510baa7e83ac5d204520c720f49d342aa55e92
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libxml2
+Version: 2.9.2-3
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 478066
+Filename: libxml2_2.9.2-3_ar71xx.ipk
+Size: 475238
+MD5Sum: 2ae42214f33db66c08a115b7770649ae
+SHA256sum: f8a9ccd0609f73e5f6ab87cd23433c7f06eb2da9a02e7b39a1b715e5c850acf0
+Description:  A library for manipulating XML and HTML resources.
+
+Package: nano
+Version: 2.5.3-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/nano
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: ar71xx
+Installed-Size: 28341
+Filename: nano_2.5.3-1_ar71xx.ipk
+Size: 28890
+MD5Sum: a7881f107dbdd1e0673d0fe87856709e
+SHA256sum: 87b1c33fa687759c63f9a7f3eaf6a0948b1590c8c85a28e7071d6790f14562e3
+Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: openvswitch-ipsec
+Version: 2.3.90-58be9c9fd732b5bdd3d4c2e9b8cc2313f570094d
+Depends: libc, openvswitch-python
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 5413
+Filename: openvswitch-ipsec_2.3.90-58be9c9fd732b5bdd3d4c2e9b8cc2313f570094d_ar71xx.ipk
+Size: 6243
+MD5Sum: 96ad43afa8508fb69b0a81fe34e33dcc
+SHA256sum: 82a831e51b7aa5b957cbef0a73bb6ada82bf036ba3556873c143bd44533801be
+Description:  The ovs-monitor-ipsec script provides support for encrypting GRE tunnels with 
+ IPsec.
+
+Package: openvswitch-python
+Version: 2.3.90-58be9c9fd732b5bdd3d4c2e9b8cc2313f570094d
+Depends: libc, openvswitch, python
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 121946
+Filename: openvswitch-python_2.3.90-58be9c9fd732b5bdd3d4c2e9b8cc2313f570094d_ar71xx.ipk
+Size: 122859
+MD5Sum: 087b438fa37211f5f1e1fd3e3595cc00
+SHA256sum: f28b1589131270b89439bbde0acd8754ed63ae1d742a2975a32cc3f3a0732d1d
+Description:  Provides bindings and libraries for using Python to manipulate/work with Open vSwitch.
+
+Package: openvswitch
+Version: 2.3.90-58be9c9fd732b5bdd3d4c2e9b8cc2313f570094d
+Depends: libc, libpcap, libopenssl, librt, libatomic, kmod-openvswitch
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 823750
+Filename: openvswitch_2.3.90-58be9c9fd732b5bdd3d4c2e9b8cc2313f570094d_ar71xx.ipk
+Size: 814953
+MD5Sum: 7c96aacd011cb4d48ea2a24ba0c52ff8
+SHA256sum: b41e281d054152540c9e228e88263812bd710a57cf1a726f56824842c0eb1226
+Description:  Provides the main userspace components required for Open vSwitch to function.
+
+Package: python-base
+Version: 2.7.12-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 714899
+Filename: python-base_2.7.12-1_ar71xx.ipk
+Size: 711870
+MD5Sum: ae3b11ccdd16065967b886fe0c8d1d6d
+SHA256sum: 6ccf6ef828bc6ce76ed4842f6458182d46cd49de8500916a1ffd1d308efab12b
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python-codecs
+Version: 2.7.12-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 884525
+Filename: python-codecs_2.7.12-1_ar71xx.ipk
+Size: 860014
+MD5Sum: 97c66f11f93fe5793112f3dcefd3bc71
+SHA256sum: d4607d2bcf4cc2347d53671fe140c3fcd2939b11185a4bb3b6d412c36fbc8ed4
+Description:  Python 2.7 codecs + unicode support
+
+Package: python-compiler
+Version: 2.7.12-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 37805
+Filename: python-compiler_2.7.12-1_ar71xx.ipk
+Size: 38675
+MD5Sum: 6569035df95146525b96db94bccad74c
+SHA256sum: a738efa8c36fcfc49eca3d9b60fe18a1b8e639fc782852393a4e85f080ee4a91
+Description:  Python 2.7 compiler module
+
+Package: python-ctypes
+Version: 2.7.12-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 99768
+Filename: python-ctypes_2.7.12-1_ar71xx.ipk
+Size: 100635
+MD5Sum: 7355b9235eee2bb7d777e9608fd0948a
+SHA256sum: 82cde19aff5566780e7484cdc153917ec567ae34b63f37ca269ebda80101d2b0
+Description:  Python 2.7 ctypes module
+
+Package: python-db
+Version: 2.7.12-1
+Depends: libc, python-light, libdb47
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 101619
+Filename: python-db_2.7.12-1_ar71xx.ipk
+Size: 101786
+MD5Sum: 03f4aee509138df432105d1284eb5d6d
+SHA256sum: 747fe4c08ddd42632b168423fb929e60ee22c27b826435091d25bb9117138b8c
+Description:  Python 2.7 db module
+
+Package: python-decimal
+Version: 2.7.12-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 47103
+Filename: python-decimal_2.7.12-1_ar71xx.ipk
+Size: 48011
+MD5Sum: 18fcbf0d3ed83fe116ab6ea7a009ce1d
+SHA256sum: 23c6028479276565b41c6f9bd9cb86f2abdb9273bafbfb3b0e34169f972722d9
+Description:  Python 2.7 decimal module
+
+Package: python-distutils
+Version: 2.7.12-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 543293
+Filename: python-distutils_2.7.12-1_ar71xx.ipk
+Size: 544186
+MD5Sum: a0225177b71e745c3afec69e4c2fb2ff
+SHA256sum: a2a35fc2ac4b408215cf847a0477da3ee5f75ea8d6d559f13d8312d387a212ce
+Description:  Python 2.7 distutils
+
+Package: python-email
+Version: 2.7.12-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 146886
+Filename: python-email_2.7.12-1_ar71xx.ipk
+Size: 147615
+MD5Sum: 5a2ff6dbb0655593f3a92524a15d17e9
+SHA256sum: 99d35af4057c8c1b9c3ee0659b4001a0134ac09fa1e2cb8b5a2ab21b58058d1a
+Description:  Python 2.7 email module
+
+Package: python-gdbm
+Version: 2.7.12-1
+Depends: libc, python-light, libgdbm
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 5576
+Filename: python-gdbm_2.7.12-1_ar71xx.ipk
+Size: 6372
+MD5Sum: 0707aafb688903fb767b12d9f933cc2a
+SHA256sum: fcd4796cd80fcd81513b492d7b705cb2afcc35962c4176ec385ace6cfdc59ccb
+Description:  Python 2.7 gdbm module
+
+Package: python-light
+Version: 2.7.12-1
+Depends: libc, python-base, libffi, libbz2
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 1251188
+Filename: python-light_2.7.12-1_ar71xx.ipk
+Size: 1249920
+MD5Sum: a4510bb66e7584eb439e30371a1d49bd
+SHA256sum: fc4176cb99977dd83abfbb3ea042f4893e5f382055c6aad4e879b2c14f5924eb
+Description:  This package is essentially the python-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python-logging
+Version: 2.7.12-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 37015
+Filename: python-logging_2.7.12-1_ar71xx.ipk
+Size: 37893
+MD5Sum: 2d67c9a695d4b47c6e504180584ecb15
+SHA256sum: 73c738b20645dd384c0f918daf848a2d33b7fdbe074f5cf279668b54c440f772
+Description:  Python 2.7 logging module
+
+Package: python-multiprocessing
+Version: 2.7.12-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 47657
+Filename: python-multiprocessing_2.7.12-1_ar71xx.ipk
+Size: 48491
+MD5Sum: 4be2db4b288bb98d9d7d081a512702ec
+SHA256sum: e8d1b97a5ba0b9314c8774645f097609b4fdce97ccc61431b0ab6cbcb315b274
+Description:  Python 2.7 multiprocessing
+
+Package: python-ncurses
+Version: 2.7.12-1
+Depends: libc, python-light, libncurses
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 26628
+Filename: python-ncurses_2.7.12-1_ar71xx.ipk
+Size: 26985
+MD5Sum: 613196cbe317c97d3e425fde75716f21
+SHA256sum: 574ab4e50ceea1fe01b868fbb2a4a787a9292a3897cf27b00404588287940d11
+Description:  Python 2.7 ncurses module
+
+Package: python-openssl
+Version: 2.7.12-1
+Depends: libc, python-light, libopenssl
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 34349
+Filename: python-openssl_2.7.12-1_ar71xx.ipk
+Size: 34482
+MD5Sum: f9fd750217414423c7b2faed6299ddfc
+SHA256sum: eeddcbbac02a7d4f1cf148d1b14991640d6733a2fca16d5d48e2f7828e64cbc7
+Description:  Python 2.7 SSL module
+
+Package: python-pydoc
+Version: 2.7.12-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 191795
+Filename: python-pydoc_2.7.12-1_ar71xx.ipk
+Size: 192770
+MD5Sum: 1e41488dc31f1e55e68de4f237ef6baf
+SHA256sum: 0c7bb0bff266c87827f3172f482b7f9c9a68b9f832246be3b4ebebe8c1c842bf
+Description:  Python 2.7 pydoc module
+
+Package: python-sqlite3
+Version: 2.7.12-1
+Depends: libc, python-light, libsqlite3
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 41951
+Filename: python-sqlite3_2.7.12-1_ar71xx.ipk
+Size: 42836
+MD5Sum: 674997ad83de5d3643c2784e4fe3e225
+SHA256sum: 201810277331ff38b1db99a73003a7d0a84dc3507c2089c2a5dbc1601fa61536
+Description:  Python 2.7 sqlite3 module
+
+Package: python-unittest
+Version: 2.7.12-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 54241
+Filename: python-unittest_2.7.12-1_ar71xx.ipk
+Size: 55105
+MD5Sum: be40a00d339c43cae84608fe0be2b079
+SHA256sum: 0f6d630dcc0d4b4858fa98a2b8756a9850b1d10b50eca763a458ff757a93212f
+Description:  Python 2.7 unittest module
+
+Package: python-xml
+Version: 2.7.12-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 157449
+Filename: python-xml_2.7.12-1_ar71xx.ipk
+Size: 157888
+MD5Sum: aecd1ab506a29c52567e80dd71fd6712
+SHA256sum: 087089de696ae7ed74133ab239ea93c00f8e01bae5a0bae0724ad8c22e6f9c48
+Description:  Python 2.7 xml libs
+
+Package: python
+Version: 2.7.12-1
+Depends: libc, python-light, python-codecs, python-compiler, python-ctypes, python-db, python-decimal, python-distutils, python-email, python-gdbm, python-logging, python-multiprocessing, python-ncurses, python-openssl, python-pydoc, python-sqlite3, python-unittest, python-xml
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 104
+Filename: python_2.7.12-1_ar71xx.ipk
+Size: 1015
+MD5Sum: 8144785b828026991f7e412eb22ad9ae
+SHA256sum: a401d86783e95d74f68310a83fddf8094ab753d095afd54170c652cc584e0613
+Description:  This package contains the (almost) full Python install.
+ It's python-light + all other packages.
+
+Package: vim
+Version: 7.4-2
+Depends: libc, libncurses
+Source: feeds/packages/utils/vim
+Section: utils
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: ar71xx
+Installed-Size: 265281
+Filename: vim_7.4-2_ar71xx.ipk
+Size: 265467
+MD5Sum: e0a930142cf725f56017c1ef630484e9
+SHA256sum: d4810f8e513ffb43e6a4a2f3102ef7a000a3580a4a078d16f0fe082731525df2
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Tiny build)
+

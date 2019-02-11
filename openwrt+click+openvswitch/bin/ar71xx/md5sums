@@ -1,0 +1,13 @@
+3b498c21ea6baee2023d68af2b15de8b *openwrt-ar71xx-mikrotik-root.squashfs
+cdf28f4bab1361055886db307f1d2105 *openwrt-ar71xx-mikrotik-root.squashfs-64k
+f3a624fe92c95fdbcab26bed7e7767e8 *openwrt-ar71xx-mikrotik-vmlinux-initramfs-lzma.elf
+61a6a6e84a7bb144b82c865945b9b42a *openwrt-ar71xx-mikrotik-vmlinux-initramfs.bin
+6e4afb1c9ed4e810f3f10a26a01fd424 *openwrt-ar71xx-mikrotik-vmlinux-initramfs.elf
+c9281cd8683d4a1ee953be55c3be1a0a *openwrt-ar71xx-mikrotik-vmlinux-initramfs.gz
+1e60e30e77100fe65a15ad08094f9ec6 *openwrt-ar71xx-mikrotik-vmlinux-initramfs.lzma
+0f1e143723f7d0a43183e9069e16f434 *openwrt-ar71xx-mikrotik-vmlinux-lzma.elf
+706f0919021faf8cee680875763cfbfe *openwrt-ar71xx-mikrotik-vmlinux.bin
+a88914f71b0f000ac0392daf191495d4 *openwrt-ar71xx-mikrotik-vmlinux.elf
+a2c219732c21df5188f119d2172f505b *openwrt-ar71xx-mikrotik-vmlinux.gz
+9f00437f0641bba2b4ef87eb1034ca4c *openwrt-ar71xx-mikrotik-vmlinux.lzma
+f2a58232f2739178b8f4b14456645c56 *sha256sums

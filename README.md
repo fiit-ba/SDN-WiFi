@@ -16,13 +16,13 @@ When a packet arrives to forwarder processing it has to be handled correctly. Th
 
 The packet type fields are depicted in Figure 1. It is defined within experimenter part of the packet type which is specified by field&#39;s _namespace 0x0000_ and _ns\_type 0xFFFF_. Behind these two fields the OXM experimenter structure follows, which contains Experimenter ID for type and OXM field for subtype of a packet. The experimenter ID is set to 0x00000037 and the OXM field is set to 0x0000. Finally, additional subtypes of 802.11 frames are not necessary to define because they are recognized by 802.11 matches.
 
-![Packet type structure](/images/Picture1.png)
+![Packet type structure](Picture1.png)
 
 ### 1.2 Instruction
 
 In order to link WTP with the SDN controller a trigger instruction was developed. This instruction generates OpenFlow messages based on received 802.11 frames. Generated OpenFlow messages include information of a client station connecting states and related context. The new instruction is depicted in Figure 2. Type of instruction is set to 0xFFFF what represents experimenter type. It is followed by fields: length, Experimenter ID, subtype and payload. The length is depending on payload size. The Experimenter ID is set to 0x00000037 and the subtype is described below with its payload parts.
 
-![Instruction structure](/images/Picture2.png)
+![Instruction structure](Picture2.png)
 
 We have designed following subtypes of information:
 
@@ -53,7 +53,7 @@ The OpenFlow matches are primarily proposed for Ethernet frames and they do not 
 | OXM\_OF\_WIFI\_ADDR\_3 | - | 6 | Address 3 |
 | OXM\_OF\_WIFI\_SSID | - | 32 | name of the wireless network - SSID |
 
-![Matches structure](/images/Picture3.png)
+![Matches structure](Picture3.png)
 
 ### 1.4 Messages
 
@@ -61,7 +61,7 @@ New OpenFlow messages were developed for communication between the SDN controlle
 
 The new OpenFlow messages (Figure 4) are defined by the field type in OpenFlow protocol (OFP) header, Experimenter ID, Experimenter type and payload. The Experimenter ID value is set to 0x00000037 and Experimenter type defines message type. The message type values ranging from 0x00000000 to 0x00000099 are reserved for SDN controller  WTP communication. Values equal to 0x00000100 and greater are reserved for SDN controller  EnDeC communication. The payload determines additional information for each subtype message. The list of all messages is depicted in Table 3 for SDN controller  WTP communication and Table 4 for SDN controller  EnDeC communication.
 
-![Messages structure](/images/Picture4.png)
+![Messages structure](Picture4.png)
 
 **Table 3.** Message list between WTP and SDN controller
 

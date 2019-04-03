@@ -2,7 +2,7 @@
 Repository for source codes used in article published in Journal.
 All measurements were done in real environment with interferences from other networks.
 
-![Wifi_networks](wifi siete_invert.png)
+![Wifi_networks](wifi%20siete_invert.png)
 
 ## 1. OpenFlow extensions
 
